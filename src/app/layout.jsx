@@ -15,6 +15,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="twitter:image" content="og/og.png"></meta>
+        <meta property="twitter:card" content="og/og.png"></meta>
+        <meta property="twitter:title" content="Johan Philip"></meta>
+        <meta
+          property="twitter:description"
+          content="Software Engineer, Drummer and an Avid Sports Fanatic"
+        ></meta>
+        <meta property="og:image" content="og/og.png"></meta>
+        <meta property="og:title" content="Johan Philip"></meta>
+        <meta
+          property="og:description"
+          content="Software Engineer, Drummer and an Avid Sports Fanatic"
+        ></meta>
+      </head>
       <body
         className={`${playFairDisplay.variable} font-sans flex flex-col min-h-screen w-screen items-center justify-center dark:bg-black antialiased`}
       >

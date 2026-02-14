@@ -10,7 +10,7 @@ export function HeroSection() {
         <div className="flex flex-col gap-4">
           <h1 className="text-5xl font-bold">Johan Philip</h1>
           <p className="text-sm text-muted-foreground">
-            Software Engineer, Network Engineer and an Avid Sports Fanatic
+            Software Engineer, Drummer and an Avid Sports Fanatic
           </p>
         </div>
       </div>
